@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app='CounterApp'>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Digest</title>
+  </head>
+  <body>
+    <h1>The Digest</h1>
+      <div ng-controller='CounterController'>
+
+          <div>
+            <button ng-click="upCounter()">INCREAMENT Counter (once)</button>
+            <div>
+
+              Reguler Counter{{ counter }}
+            <div>
+          </div>
+      </div>
+  </body>
+</html>
